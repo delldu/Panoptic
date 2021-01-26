@@ -8,7 +8,7 @@ from collections import OrderedDict
 import torch
 from torch import nn
 import torch.nn.functional as F
-import apex
+# import apex
 from realtime_panoptic.layers.scale import Scale
 from realtime_panoptic.utils.bounding_box import BoxList
 from realtime_panoptic.models.backbones import ResNetWithModifiedFPN
